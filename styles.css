@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
 .navbar {
     background-color: #ffffff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -19,11 +26,73 @@
     font-size: 16px;
 }
 .btn {
-    background-color: #36ea12;
+    background-color: #30B868;
     color: #ffffff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
+    border: none; 
     cursor: pointer;
     font-size: 16px;
+    padding: 0.7rem 1.2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.btn-primary {
+  background: #16a34a;
+  color: #fff;
+}
+
+.btn-outline {
+  border: 1px solid #16a34a;
+  color: #16a34a;
+}
+
+.btn-dark {
+  background: transparent;
+  color: #fff;
+}
+.hero {
+  position: relative;
+  background: url("assets/hero-bg.png") center/cover no-repeat;
+  padding: 6rem 0;
+  color: #fff;
+    text-align: center;
+    justify-content: center;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(2, 6, 23, 0.7);
+}
+.hero-content {
+  position: relative;
+  max-width: 1600px;
+}
+.badge {
+  background: white;
+  color: green;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+.hero h1 span {
+  color: #22c55e;
+}
+
+.hero p {
+  margin: 1.5rem 0;
+  color: #cbd5f5;
+}
+
+.hero-buttons a {
+  margin-right: 1rem;
 }
