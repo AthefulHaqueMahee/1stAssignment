@@ -189,3 +189,22 @@
   font-size: 1rem;
   margin-bottom: 1.5rem;
 }
+
+
+.think {
+  margin-left: 100px;
+  margin-right: 100px;
+  background: #f8fafc;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.think small {
+  display: block;
+  margin-top: 1rem;
+  color: #64748b;
+}
+.think h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+      }
