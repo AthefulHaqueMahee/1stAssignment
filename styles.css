@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+ font-family: 'Inter', sans-serif;
 }
 
 .navbar {
@@ -64,7 +64,6 @@
 .hero-overlay {
   position: absolute;
   inset: 0;
-  /* background: rgba(2, 6, 23, 0.7); */
 }
 .hero-content {
   position: relative;
@@ -95,4 +94,56 @@
 
 .hero-buttons a {
   margin-right: 1rem;
+}
+.problems{
+  padding: 4rem 0;
+  background: #f9fafb;
+  
+}
+.container{
+  max-width: 1200px;
+  margin:0 auto;
+  padding: 0rem  1rem 1rem 1rem;
+  text-align: center;
+ 
+}
+.problem-box{
+ 
+  display: flex;
+  font-size: 16px;
+  gap: 32px;
+  background-color: #ffffff;
+  justify-content: space-around;
+}
+.problem-box img{
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  border-radius: 100%;
+  padding: 4px;
+}
+.problem-heading h2{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.problem-heading .subtitle{
+  font-size: 1rem;
+  color: #6b7280;
+}
+.problem-box h3{
+  font-size: 1.25rem;
+  margin: 0.5rem 0;
+}
+.problem-box p{
+  color: #6b7280;
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+.problem-card{
+  padding: 2rem;
+  text-align: center;
+  box-shadow: #6b7280 0px 4px 6px -1px, #f8f9fb 0px 2px 4px -1px;
+  justify-content: space-around;
 }
