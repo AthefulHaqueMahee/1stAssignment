@@ -144,6 +144,48 @@
 .problem-card{
   padding: 2rem;
   text-align: center;
-  box-shadow: #6b7280 0px 4px 6px -1px, #f8f9fb 0px 2px 4px -1px;
+  box-shadow: #6b7280 0px 2px 8px 1px, #f8f9fb 0px 2px 2px 1px;
   justify-content: space-around;
+}
+.solution {
+  padding: 5rem 0;
+}
+
+.solution-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  gap: 3rem;
+}
+
+.solution-image img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.section-label {
+  color: #16a34a;
+  font-weight: 700;
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+.solution ul {
+  margin-top: 1.5rem;
+}
+.solution li {
+  margin-bottom: 0.8rem;
+  list-style: none;
+}
+
+.solution-text h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.solution-text p {
+  max-width: 60%;
+  color: #6b7280;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
 }
